@@ -1,0 +1,33 @@
+/* main.css - CSC102 Assignment 2.2: Using CSS in Webpages */
+/* Author: Joseph McCoy */
+
+/* Sets base page colors */
+body {
+  background-color: #f0f4f8;
+  color: #1a1a2e;
+}
+
+/* Styles the navigation menu box, floated to the left side of the page */
+nav {
+  height: 600px;
+  width: 200px;
+  float: left;
+  padding: 5px;
+  line-height: 30px;
+}
+
+/* Centers footer text and adds right margin */
+footer {
+  text-align: center;
+  margin-right: 200px;
+}
+
+/* Adds right margin around the meme image */
+#memeImage {
+  margin-right: 200px;
+}
+
+/* Centers the page header text */
+header {
+  text-align: center;
+}
