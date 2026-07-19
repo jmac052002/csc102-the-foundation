@@ -30,7 +30,7 @@ function getResultMessage(total) {
   var resultText;
 
   // Jackpot: both reels landed on the highest possible combined value
-  if (total === 18) {
+  if (total = 18) {
     resultText = "JACKPOT! Both reels maxed out - you win big!";
   }
   // Even total counts as a smaller win
