@@ -1,0 +1,58 @@
+<!-- Joseph McCoy -->
+  <!-- CSC102 - Introduction to Programming, Assignment 3.2: User Input Validation -->
+  <!-- Updated 07/21/2026 -->
+  <!-- Declares this document as an HTML5 document -->
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <!-- Sets the title shown in the browser tab -->
+  <title>Joseph McCoy - Secret Message Access</title>
+<!-- Links the external stylesheet so this page matches the rest of the site -->
+  <link rel="stylesheet" href="main.css">
+  <!-- Links the external JavaScript file containing the input validation logic -->
+  <script src="strings.js"></script>
+  </head>
+  <body>
+  <!-- Header section wraps the main page title -->
+  <header>
+  <h1>Secret Message Access</h1>
+</header>
+<!-- Navigation section with links to move between pages -->
+  <nav>
+  <h2>Navigation</h2>
+<a href="./index.html">Home</a><br>
+  <a href="./boards.html">Boards</a><br>
+  <a href="./game.html">Game</a><br>
+  <a href="./strings.html">Strings</a><br>
+  </nav>
+  <!-- Explains what the user must do to unlock the secret message -->
+  <p>Enter your first name, last name, and zip code below, then press the button to unlock the secret message.</p>
+<!-- Form holding every input box and one submit button; calls validateInputs() from strings.js on submit -->
+  <form onsubmit="return validateInputs();">
+  <!-- Label and text box for the user's first name -->
+  <label for="firstName">First Name:</label>
+  <input type="text" id="firstName">
+  <br>
+  <!-- Label and text box for the user's last name -->
+  <label for="lastName">Last Name:</label>
+  <input type="text" id="lastName">
+  <br>
+  <!-- Label and text box for the user's zip code -->
+  <label for="zipCode">Zip Code:</label>
+  <input type="text" id="zipCode">
+  <br>
+  <!-- Single submit button that submits every input box at once -->
+  <button type="submit">Unlock Secret Message</button>
+</form>
+<!-- This div is where our JavaScript writes warnings or the secret message using innerHTML -->
+  <div id="resultArea"></div>
+  <!-- Footer section with author and school info -->
+  <footer>
+  Joseph McCoy<br>
+University of Advancing Technology<br>
+2625 W. Baseline Rd<br>
+Tempe, AZ 85283<br>
+  </footer>
+  </body>
+  </html>
+  
