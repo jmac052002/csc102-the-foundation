@@ -31,3 +31,13 @@ footer {
 header {
   text-align: center;
 }
+
+
+/* Creative element: styles the secret message box with a fun monospace font, background color, and rounded corners */
+#resultArea {
+  font-family: 'Courier New', monospace;
+  background-color: #ffe6b3;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
